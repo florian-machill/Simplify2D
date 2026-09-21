@@ -4,6 +4,8 @@ using UnityEngine.UI;
 using System.IO;
 using System;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem.UI;
+
 
 namespace Simplify2D
 {
@@ -47,7 +49,7 @@ namespace Simplify2D
         [MenuItem("Simplify2D/2D Objekt erstellen", false, 100)]
         static void CreateNew2DObject()
         {
-            Canvas canvas = FindObjectOfType<Canvas>();
+            Canvas canvas = FindFirstObjectByType<Canvas>();
 
             // Create new canvas
             if (canvas == null)
@@ -81,13 +83,13 @@ namespace Simplify2D
             }
 
             // EventSystem?
-            EventSystem eventSystem = FindObjectOfType<EventSystem>();
+            EventSystem eventSystem = FindFirstObjectByType<EventSystem>();
 
             if (eventSystem == null)
             {
                 GameObject eventSystemGO = new GameObject(eventSystemName);
                 eventSystemGO.AddComponent<EventSystem>();
-                eventSystemGO.AddComponent<StandaloneInputModule>();
+                eventSystemGO.AddComponent<InputSystemUIInputModule>();
             }
 
             Setup2DObject(canvas);

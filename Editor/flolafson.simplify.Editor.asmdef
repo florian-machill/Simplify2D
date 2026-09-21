@@ -1,7 +1,9 @@
 {
     "name": "flolafson.simplify.Editor",
+    "rootNamespace": "",
     "references": [
-        "GUID:915dc214770d5f64a98c935bc0907453"
+        "GUID:915dc214770d5f64a98c935bc0907453",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

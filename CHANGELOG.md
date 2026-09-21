@@ -1,9 +1,14 @@
 # Changelog
 
-## [1.1.1] - 2021-10-28
+## [1.3.0] - 2026-09-21
+*Update*
+### Added
+- Auf das Unity Input System angepasst
+
+## [1.2.0] - 2021-10-28
 *Feature*
 ### Added
-- Funktion zum Begrenzen der Framerate im Simplify2D-Menü ergänzt
+- Funktion zum Begrenzen der Framerate im Simplify2D-Menï¿½ ergï¿½nzt
 
 ## [1.1.1] - 2020-11-06
 *Bugfix*
@@ -18,10 +23,10 @@
 ## [0.2.0] - 2020-08-26
 *Content-Update*
 ### Added
-- Neue Grafiken hinzugefügt
+- Neue Grafiken hinzugefï¿½gt
 
 ## [0.0.1] - 2020-08-26
-*Erste Version veröffentlicht*
+*Erste Version verï¿½ffentlicht*
 ### Added
 - Werkzeug zum Erstellen von Objekten und Scripts
 - Beispiel-Grafik
