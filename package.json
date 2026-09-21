@@ -1,10 +1,10 @@
 {
   "name": "com.flolafson.simplify",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "displayName": "Simplify2D",
   "description": "Simplify2D ist ein Toolkit, dass den Einstieg in die Programmierung von 2D-Anwendungen mit Unity erleichtern soll.",   
   "unity": "2019.1",
-  "dependencies": { },
+  "dependencies": {"com.unity.inputsystem" : "1.20.0" },
   "author": {
     "name": "Florian Machill",
     "email": "florian.machill@hs-ansbach.de",
